@@ -7,7 +7,6 @@ import toast, { Toaster } from "react-hot-toast";
 import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromWishList } from "../../reduxToolkit/features/productList/WishListSlice";
-import Lottie from "react-lottie";
 import animationData from "./Animation - 1713385936637.json";
 import { addToCart } from "../../reduxToolkit/features/productList/CartSlice";
 
